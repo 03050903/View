@@ -2,6 +2,8 @@ package com.example.warren.view;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.ImageButton;
 
 import com.example.warren.view.diy.RoundProgressBar;
 
@@ -33,6 +35,12 @@ public class RoundProgressBarActivity extends AppCompatActivity {
                 }
             }
         }).start();
-
+        ImageButton ib_left = (ImageButton) findViewById(R.id.ib_left);
+        ib_left.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
     }
 }
