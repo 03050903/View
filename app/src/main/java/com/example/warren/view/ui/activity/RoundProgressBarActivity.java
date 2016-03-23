@@ -1,13 +1,14 @@
-package com.example.warren.view;
+package com.example.warren.view.ui.activity;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
 
-import com.example.warren.view.diy.RoundProgressBar;
+import com.example.warren.view.R;
+import com.example.warren.view.ui.custom.RoundProgressBar;
 
-public class RoundProgressBarActivity extends AppCompatActivity {
+
+public class RoundProgressBarActivity extends BaseActivity {
     int mProgress = 0;
 
     @Override

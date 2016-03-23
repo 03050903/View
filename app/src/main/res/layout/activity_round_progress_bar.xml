@@ -9,7 +9,7 @@
         layout="@layout/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-    <com.example.warren.view.diy.RoundProgressBar
+    <com.example.warren.view.custom.RoundProgressBar
         android:layout_centerInParent="true"
         android:layout_width="40dp"
         android:layout_height="40dp"
